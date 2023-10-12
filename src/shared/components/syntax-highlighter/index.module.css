@@ -1,0 +1,17 @@
+@import "../../styles/imports/variables.css";
+@import "../../styles/imports/custom-medias.css";
+
+.gatsbyHighlight .preCustom {
+  width: 75%;
+  margin: auto;
+  padding: 15px;
+  outline: none;
+  border-radius: 2px;
+  text-align: left;
+}
+
+@media (--layout-lte-medium) {
+  .gatsbyHighlight .preCustom {
+    width: 100%;
+  }
+}
