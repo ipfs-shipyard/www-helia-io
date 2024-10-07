@@ -1,12 +1,12 @@
 const publicationsAndTalks = [
   {
-    link: 'https://www.youtube.com/watch?v=WK4PIGr3RB8',
+    link: 'https://www.youtube.com/watch?v=T_FlhkLSgH8',
     active: true,
-    title: 'Progress Report on the Decentralized Web, David Dias'
+    title: 'Hello Helia - An introduction to the Helia implementation, @achingbrain'
   },
   {
-    link: 'https://www.youtube.com/watch?v=2cmbm6iABsI',
-    title: 'IPFS on the Brave Browser, Alan Shaw'
+    link: 'https://www.youtube.com/watch?v=NOIfEeK0RgI',
+    title: 'The State of Helia: IPFS in the Browser, @sgtpooki'
   },
   {
     link: 'https://www.youtube.com/watch?v=4VB66hJSvqM',

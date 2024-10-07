@@ -46,7 +46,8 @@ class Community extends Component {
   handleObserverChange = ({ isIntersecting }) => {
     // Lazy render the contributors pictures to avoid downloading a lot of images at page load
     if (!this.state.showContributors && isIntersecting) {
-      this.setState({ showContributors: true })
+      // TODO: fix contributor list
+      //this.setState({ showContributors: true })
     }
   }
 }

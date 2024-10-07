@@ -23,6 +23,9 @@ class LocalesDropdown extends Component {
   }
 
   render () {
+    // TODO: fixme
+    return <></>
+
     const { intl: { locale: currentLocale }, className } = this.props
 
     const dropdownClasses = classNames(styles.dropdown, className)

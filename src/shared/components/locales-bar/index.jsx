@@ -10,6 +10,9 @@ import Link from '../link/index.jsx'
 import styles from './index.module.css'
 
 const LocalesBar = ({ intl: { locale: currentLocale, messages }, className }) => {
+  // TODO: fixme
+  return <></>
+
   const localesBarClassName = classNames(styles.localesBar, className)
   const renderLocales = availableLocales.map((locale, index) => {
     const to = defaultLocale === locale.acronym ? '/' : `/${locale.acronym}/`

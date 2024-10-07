@@ -3,8 +3,6 @@ import { PropTypes } from 'prop-types'
 import classNames from 'classnames'
 import { injectIntl } from 'react-intl'
 
-import Svg from '../svg/index.jsx'
-import protocolLogoSvg from './images/pl-logo.svg'
 import styles from './index.module.css'
 
 const Footer = ({ className, intl: { messages } }) => (
@@ -12,8 +10,11 @@ const Footer = ({ className, intl: { messages } }) => (
     <div className={ styles.container }>
       <div className={ styles.leftContent }>&copy; { messages.footer.leftContent }</div>
       <div className={ styles.rightContent }>
-        <div className={ styles.text }>{ messages.footer.rightContent }</div>
-        <Svg className={ styles.protocolLogo } svg={ protocolLogoSvg } />
+        <div className={ styles.text }>
+          <a href="https://ipshipyard.gitwallet.co/">
+            { messages.footer.rightContent }
+          </a>
+        </div>
       </div>
     </div>
   </footer>

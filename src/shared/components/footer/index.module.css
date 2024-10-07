@@ -40,6 +40,14 @@
       }
     }
   }
+
+  a {
+    color: var(--color-text-footer);
+    text-decoration: none;
+  }
+  a:link, a:hover {
+    color: #FFF;
+  }
 }
 
 @media (max-width: 1000px) {
