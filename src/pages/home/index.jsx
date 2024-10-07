@@ -17,8 +17,8 @@ const HomePage = () => (
       <Features />
       <GettingStarted />
       { /* <Gateway /> */ }
-      <WhatArePeopleBuilding />
-      <WhatYouCanBuild />
+      { /* <WhatArePeopleBuilding /> */ }
+      { /* <WhatYouCanBuild /> */ }
       <PublicationsAndTalks />
       <Community />
     </ScreenSizeProvider>
