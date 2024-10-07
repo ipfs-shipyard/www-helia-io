@@ -142,12 +142,12 @@
 
   "community": {
     "sectionTitle": "Community",
-    "sectionDesc": "Helia è sotto la licenza MIT, ed è un progetto Open Source della community IPFS. Tu puoi contribuire in molti modi: puoi aiutare a scrivere specifiche, codice e strumenti oppure esempi e tutorial. Partecipa alle nostre [chiamate di gruppo](https://github.com/ipfs/team-mgmt#synchronous-communication) per discutere con noi di IPFS.",
+    "sectionDesc": "Helia è sotto la licenza Apache/MIT, ed è un progetto Open Source della community IPFS. Tu puoi contribuire in molti modi: puoi aiutare a scrivere specifiche, codice e strumenti oppure esempi e tutorial. Partecipa alle nostre [chiamate di gruppo](https://lu.ma/helia-wg) per discutere con noi di IPFS.",
     "socialNetworksText": "Divertiti con noi!"
   },
 
   "footer": {
     "rightContent": "Helia è stato creato ed è sponsorizzato da",
-    "leftContent": "Protocol Labs | Ad eccezione di quanto indicato, contenuto autorizzato CC-BY 3.0"
+    "leftContent": "IPFS Foundation | Ad eccezione di quanto indicato, contenuto autorizzato CC-BY 3.0"
   }
 }

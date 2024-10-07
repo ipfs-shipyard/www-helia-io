@@ -12,9 +12,9 @@
     "start": "mkdir dist && cp -R static/* dist && node esbuild.js serve"
   },
   "dependencies": {
-    "@helia/strings": "^1.0.1",
+    "@helia/strings": "^4.0.0",
     "classnames": "^2.2.6",
-    "helia": "^2.0.3",
+    "helia": "^5.0.0",
     "langmap": "0.0.16",
     "normalize.css": "^8.0.0",
     "postcss-import": "^15.1.0",
@@ -33,9 +33,9 @@
     "react-youtube": "^10.1.0"
   },
   "devDependencies": {
-    "aegir": "^41.0.4",
-    "esbuild": "^0.19.4",
-    "rimraf": "^5.0.5"
+    "aegir": "^44.1.2",
+    "esbuild": "^0.24.0",
+    "rimraf": "^6.0.1"
   },
   "browserslist": [
     "last 1 Chrome versions",

@@ -142,7 +142,7 @@
 
   "community": {
     "sectionTitle": "Topluluk",
-    "sectionDesc": "Helia, IPFS topluluğundan bir MIT Lisanslı, Açık Kaynak projesidir. Katkıda bulunmanın birçok yolu vardır: Helia kullanarak belirtim, kod uygulamaları ve araçları yazmaya yardımcı olun, örnekler ve öğreticiler oluşturun ve IPFS'yi bizimle tartışmak için bize [çalışma grubu çağrıları] (https://github.com/ipfs/team-mgmt#synchronous-communication) katılın.",
+    "sectionDesc": "Helia, IPFS topluluğundan bir Apache/MIT Lisanslı, Açık Kaynak projesidir. Katkıda bulunmanın birçok yolu vardır: Helia kullanarak belirtim, kod uygulamaları ve araçları yazmaya yardımcı olun, örnekler ve öğreticiler oluşturun ve IPFS'yi bizimle tartışmak için bize [çalışma grubu çağrıları] (https://lu.ma/helia-wg) katılın.",
     "socialNetworksText": "Hadi takıl!"
   },
 

@@ -142,12 +142,12 @@
 
   "community": {
     "sectionTitle": "社区",
-    "sectionDesc": "Helia是来自于IPFS社区的开源项目，使用MIT许可协议。您可以通过多种方式为项目作出贡献：撰写使用文档、编写应用和工具、创建示例和教程，加入我们的团队（https://github.com/ipfs/team-mgmt#synchronous-communication）与我们一起讨论IPFS。",
+    "sectionDesc": "Helia是来自于IPFS社区的开源项目，使用MIT许可协议。您可以通过多种方式为项目作出贡献：撰写使用文档、编写应用和工具、创建示例和教程，加入我们的团队（https://lu.ma/helia-wg）与我们一起讨论IPFS。",
     "socialNetworksText": "来吧，快来加入我们！"
   },
 
   "footer": {
     "rightContent": "Helia项目已经启动并由以下赞助商提供赞助",
-    "leftContent": "Protocol Labs| 除非另有说明，内容遵守CC-BY 3.0许可协议"
+    "leftContent": "IPFS Foundation| 除非另有说明，内容遵守CC-BY 3.0许可协议"
   }
 }

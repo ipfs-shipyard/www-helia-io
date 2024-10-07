@@ -4,24 +4,6 @@ Welcome to the helia.io Website repo. Most of the website content is data-driven
 
 [![](https://ipfs.io/ipfs/QmRNFokLYeHZiSkXVCSmTKjbGAKCeP2pVZe5fbdvUWtsPL)](https://helia.io)
 
-## Table of Contents
-
-- [helia.io - The Helia project Website.](#heliaio---the-helia-project-website)
-  - [Table of Contents](#table-of-contents)
-  - [Internationalization `i18n`](#internationalization-i18n)
-    - [Incorrect translation, help us fix it!](#incorrect-translation-help-us-fix-it)
-    - [Missing language? Help us translate!](#missing-language-help-us-translate)
-    - [Synchronizing translations (maintainer task)](#synchronizing-translations-maintainer-task)
-    - [Learn more on how to use Transifex](#learn-more-on-how-to-use-transifex)
-  - [Listing a talk on the website](#listing-a-talk-on-the-website)
-  - [Want to show what's possible to build with `js-ipfs`?](#want-to-show-whats-possible-to-build-with-js-ipfs)
-  - [Development](#development)
-    - [Dependencies](#dependencies)
-    - [Install](#install)
-    - [Usage](#usage)
-  - [Publish](#publish)
-  - [License](#license)
-
 ## Internationalization `i18n`
 
 ### Incorrect translation, help us fix it!

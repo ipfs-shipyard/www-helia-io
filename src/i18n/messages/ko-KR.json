@@ -141,12 +141,12 @@
 
   "community": {
     "sectionTitle": "커뮤니티",
-    "sectionDesc": "Helia는 IPFS 커뮤니티의 MIT 라이센스 이며, 오픈소스 프로젝트 입니다. 여기에 기여하는 방법은 다양합니다. libp2p를 이용하여 명세를 작성하는데 도움을 주고, 코드와 도구를 구현하세요. 예제와 튜토리얼을 작성하고, 정기적으로 우리와 함께 libp2p에 대해 논의합시다.",
+    "sectionDesc": "Helia는 IPFS 커뮤니티의 Apache/MIT 라이센스 이며, 오픈소스 프로젝트 입니다. 여기에 기여하는 방법은 다양합니다. libp2p를 이용하여 명세를 작성하는데 도움을 주고, 코드와 도구를 구현하세요. 예제와 튜토리얼을 작성하고, 정기적으로 우리와 함께 libp2p에 대해 논의합시다.",
     "socialNetworksText": "같이 어울려요!"
   },
 
   "footer": {
     "rightContent": "Helia가 시작될 때, 다음에 의해 후원 되었습니다.",
-    "leftContent": "Protocol Labs | 명시된 경우를 제외하고 콘텐츠 라이센스는 CC-BY 3.0 입니다."
+    "leftContent": "IPFS Foundation | 명시된 경우를 제외하고 콘텐츠 라이센스는 CC-BY 3.0 입니다."
   }
 }

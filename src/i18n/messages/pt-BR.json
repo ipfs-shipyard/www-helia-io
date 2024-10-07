@@ -142,12 +142,12 @@
 
   "community": {
     "sectionTitle": "Comunidade",
-    "sectionDesc": "O Helia é um projeto com Licença MIT, de código aberto, da comunidade IPFS. Há muitas maneiras de contribuir: ajude a escrever as especificações, implementações de código e ferramentas usando Helia, crie exemplos e tutoriais, e junte-se aos nossos [encontros do grupo de trabalho](https://github.com/ipfs/team-mgmt#synchronous-communication) para discutir o IPFS conosco.",
+    "sectionDesc": "O Helia é um projeto com Licença Apache/MIT, de código aberto, da comunidade IPFS. Há muitas maneiras de contribuir: ajude a escrever as especificações, implementações de código e ferramentas usando Helia, crie exemplos e tutoriais, e junte-se aos nossos [encontros do grupo de trabalho](https://lu.ma/helia-wg) para discutir o IPFS conosco.",
     "socialNetworksText": "Divirta-se connosco!"
   },
 
   "footer": {
     "rightContent": "Helia foi iniciado e é patrocinado por",
-    "leftContent": "Protocol Labs | Exceto onde indicado, conteúdo sob a licença CC-BY 3.0"
+    "leftContent": "IPFS Foundation | Exceto onde indicado, conteúdo sob a licença CC-BY 3.0"
   }
 }

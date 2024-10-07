@@ -141,12 +141,12 @@
 
   "community": {
     "sectionTitle": "Comunitat",
-    "sectionDesc": "Helia és un projecte de Codi Obert de la comunitat IPFS subjecta a la llicència MIT. Pots contribuir-hi de diverses maneres: Ajuda a escriure especificacions, implementa eines que utilitzin Helia, crea exemples i tutorials i uneix-te al nostre [grup de treball](https://github.com/ipfs/team-mgmt#synchronous-communication) per debatre l'IPFS amb nosaltres.",
+    "sectionDesc": "Helia és un projecte de Codi Obert de la comunitat IPFS subjecta a la llicència Apache/MIT. Pots contribuir-hi de diverses maneres: Ajuda a escriure especificacions, implementa eines que utilitzin Helia, crea exemples i tutorials i uneix-te al nostre [grup de treball](https://lu.ma/helia-wg) per debatre l'IPFS amb nosaltres.",
     "socialNetworksText": "Vine i troba'ns!"
   },
 
   "footer": {
     "rightContent": "Helia va ser iniciat i patrocinat per",
-    "leftContent": "Protocol Labs | Si no s'especifica el contrari, contingut llicenciat sota CC-BY 3.0"
+    "leftContent": "IPFS Foundation | Si no s'especifica el contrari, contingut llicenciat sota CC-BY 3.0"
   }
 }

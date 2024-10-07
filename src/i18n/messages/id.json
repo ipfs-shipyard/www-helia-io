@@ -142,7 +142,7 @@
 
   "community": {
     "sectionTitle": "Komunitas",
-    "sectionDesc": "Helia adalah proyek Sumber Terbuka Berlisensi MIT dari komunitas IPFS. Ada banyak cara untuk berkontribusi: bantu menulis spesifikasi, implementasi kode, dan alat menggunakan Helia, contoh kerajinan dan tutorial, dan bergabunglah dengan [panggilan kelompok kerja](https://github.com/ipfs/team-mgmt#synchronous-communication) kami untuk mendiskusikan IPFS dengan kita.",
+    "sectionDesc": "Helia adalah proyek Sumber Terbuka Berlisensi Apache/MIT dari komunitas IPFS. Ada banyak cara untuk berkontribusi: bantu menulis spesifikasi, implementasi kode, dan alat menggunakan Helia, contoh kerajinan dan tutorial, dan bergabunglah dengan [panggilan kelompok kerja](https://lu.ma/helia-wg) kami untuk mendiskusikan IPFS dengan kita.",
     "socialNetworksText": "Ayo nongkrong!"
   },
 

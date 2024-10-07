@@ -141,12 +141,12 @@
 
   "community": {
     "sectionTitle": "Community",
-    "sectionDesc": "Helia is een MIT Licensed, Open Source-project van de IPFS-community. Er zijn veel manieren om een bijdrage te leveren: schrijf mee aan de specificaties, schrijf apps en tools die gebruik maken van libp2p, maak handleidingen en tutorials, en doe mee aan onze reguliere calls waarin we libp2p bespreken.",
+    "sectionDesc": "Helia is een Apache/MIT Licensed, Open Source-project van de IPFS-community. Er zijn veel manieren om een bijdrage te leveren: schrijf mee aan de specificaties, schrijf apps en tools die gebruik maken van libp2p, maak handleidingen en tutorials, en doe mee aan onze reguliere calls waarin we libp2p bespreken.",
     "socialNetworksText": "Join us!"
   },
 
   "footer": {
     "rightContent": "Helia is gestart en wordt gesponsord door",
-    "leftContent": "Protocol Labs | Tenzij anders aangegeven, inhoud erkend onder CC-BY 3.0"
+    "leftContent": "IPFS Foundation | Tenzij anders aangegeven, inhoud erkend onder CC-BY 3.0"
   }
 }

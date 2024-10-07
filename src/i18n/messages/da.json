@@ -141,12 +141,12 @@
 
   "community": {
     "sectionTitle": "Fællesskab",
-    "sectionDesc": "Helia er et MIT-licenseret, Open Source projekt fra IPFS fællesskabet. Der er mange måder hvorpå du kan bidrage: hjælp med at skrive specifikationer, kode-implementeringer og værktøjer der benytter libp2p, skab eksempler og læringsmateriale, og tilslut dig vores faste produkt snakke for at drøfte libp2p med os.",
+    "sectionDesc": "Helia er et Apache/MIT-licenseret, Open Source projekt fra IPFS fællesskabet. Der er mange måder hvorpå du kan bidrage: hjælp med at skrive specifikationer, kode-implementeringer og værktøjer der benytter libp2p, skab eksempler og læringsmateriale, og tilslut dig vores faste produkt snakke for at drøfte libp2p med os.",
     "socialNetworksText": "Kom og hæng ud!"
   },
 
   "footer": {
     "rightContent": "Helia blev grundlagt og sponseret af",
-    "leftContent": "Protocol Labs | Undtagen angivne steder, licenseret med CC-BY 3.0"
+    "leftContent": "IPFS Foundation | Undtagen angivne steder, licenseret med CC-BY 3.0"
   }
 }

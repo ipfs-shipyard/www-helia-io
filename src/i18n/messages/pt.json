@@ -141,12 +141,12 @@
 
   "community": {
     "sectionTitle": "Comunidade",
-    "sectionDesc": "Helia é um projeto de código-fonte aberto sob a licença MIT. Pode contribuir de várias formas: ajudar a escrever as especificações, implementar código e ferramentas usando libp2p, criar exemplos e tutoriais, e pode também juntar-se às nossas chamadas regulares para discutir connosco sobre o libp2p.",
+    "sectionDesc": "Helia é um projeto de código-fonte aberto sob a licença Apache/MIT. Pode contribuir de várias formas: ajudar a escrever as especificações, implementar código e ferramentas usando libp2p, criar exemplos e tutoriais, e pode também juntar-se às nossas chamadas regulares para discutir connosco sobre o libp2p.",
     "socialNetworksText": "Divirta-se connosco!"
   },
 
   "footer": {
     "rightContent": "Helia foi iniciado e é patrocinado por",
-    "leftContent": "Protocol Labs | Exceto conforme indicado, conteúdo sob a licença CC-BY 3.0"
+    "leftContent": "IPFS Foundation | Exceto conforme indicado, conteúdo sob a licença CC-BY 3.0"
   }
 }

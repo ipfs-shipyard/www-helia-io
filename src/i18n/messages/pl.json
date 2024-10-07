@@ -141,12 +141,12 @@
 
   "community": {
     "sectionTitle": "Społeczność",
-    "sectionDesc": "Helia jest projektem Open Source rozwijanym przez społeczność IPFS na licencji MIT. Istnieje wiele sposobów aby dołączyć: pomóż przy pisaniu specyfikacji, rozwijaj implementację oraz biblioteki, twórz przykładowe aplikacje i przewodniki,  bierz udział w regularnych spotkaniach deweloperskich.",
+    "sectionDesc": "Helia jest projektem Open Source rozwijanym przez społeczność IPFS na licencji Apache/MIT. Istnieje wiele sposobów aby dołączyć: pomóż przy pisaniu specyfikacji, rozwijaj implementację oraz biblioteki, twórz przykładowe aplikacje i przewodniki,  bierz udział w regularnych spotkaniach deweloperskich.",
     "socialNetworksText": "Dołącz do nas!"
   },
 
   "footer": {
     "rightContent": "Helia powstało i istnieje dzięki wsparciu",
-    "leftContent": "Protocol Labs | Jeśli nie zazaczono inaczej, treść jest na licencji CC-BY 3.0"
+    "leftContent": "IPFS Foundation | Jeśli nie zazaczono inaczej, treść jest na licencji CC-BY 3.0"
   }
 }
