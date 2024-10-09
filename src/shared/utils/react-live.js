@@ -1,3 +1,6 @@
+import { devToolsMetrics } from '@libp2p/devtools-metrics'
+import { createHelia as createNode } from 'helia'
+
 export const codeAdd = (placeholder) => `
 import { createHelia } from 'helia'
 import { strings } from '@helia/strings'
@@ -45,8 +48,16 @@ export function log (fn) {
   }
 }
 
+let helia
+
 export async function createHelia (opts) {
-  const { createHelia } = await import('helia')
-  const node = await createHelia()
-  return node
+  if (helia == null) {
+    helia = await createNode({
+      libp2p: {
+        metrics: devToolsMetrics()
+      }
+    })
+  }
+
+  return helia
 }

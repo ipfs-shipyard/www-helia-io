@@ -24,7 +24,7 @@
       "short": "A P2P JavaScript protocol"
     },
     "textDescription": {
-      "long": "Helia paves the way for the Browser implementation of the IPFS protocol. Written entirely in JavaScript, it runs in a Browser, a Service Worker, a Web Extension and Node.js, opening the door to a world of possibilities.",
+      "long": "Helia is an implementation of the IPFS protocol that runs everywhere. Written entirely in TypeScript, it runs in a Browser, a Service Worker, a Web Extension, Node.js, Electron and React Native, opening the door to a world of possibilities.",
       "short": "Helia runs in a Browser, a Service Worker, a Web Extension and Node.js, opening the door to a world of possibilities."
     },
     "currentVersion": {
@@ -45,10 +45,10 @@
 
   "features": {
     "sectionTitle": "Features",
-    "sectionDesc": "Packed with all the things you know and love about IPFS. This implementation also carries some extra neat things that are unique to the Browser. It's the toolkit to power all your DWeb Applications.",
+    "sectionDesc": "Packed with all the things you know and love about IPFS. This implementation also carries some extra neat things that are unique to web Browsers. It's the toolkit to power all your DWeb Applications.",
     "list": [
       {
-        "title": "Run on Node.js and the Browser",
+        "title": "Run on Node.js and in Browsers",
         "desc": "Helia works out of the box on Node.js, Electron and any modern browser. It is also customizable by design so that you can use it on your favorite runtime."
       },
       {
@@ -88,7 +88,7 @@
     "addDataToIPFS": "Adding data to Helia",
     "output": "Output",
     "getDataFromIPFS": "Getting data from Helia",
-    "usingJavascript": "Using Javascript in the Browser or Node.js",
+    "usingJavascript": "Using Javascript in web Browsers or Node.js",
     "usingCli": "Using the CLI",
     "usingGateway": "Using the HTTP Gateway"
   },
