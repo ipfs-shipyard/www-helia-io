@@ -1,5 +1,5 @@
 @import "../../styles/imports/variables.css";
-@import "../../styles/imports/custom-medias.css";
+@import "../../styles/imports/containers.css";
 
 .container {
   position: relative;
@@ -79,7 +79,7 @@
   }
 }
 
-@media (--layout-lte-small) {
+@container style(--layout-lte-small: true) {
   .container {
     & .content {
       width: var(--container-width-mobile);

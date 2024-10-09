@@ -1,5 +1,5 @@
 @import "../../../styles/imports/variables.css";
-@import "../../../styles/imports/custom-medias.css";
+@import "../../../styles/imports/containers.css";
 
 :root {
   --player-border-radius: 3px;
@@ -42,7 +42,7 @@
   }
 }
 
-@media (--layout-lte-small) {
+@container style(--layout-lte-small: true) {
   .videoItemContainer {
     & .videoTitle {
       display: none;

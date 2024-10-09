@@ -1,5 +1,5 @@
 @import "../../../styles/imports/variables.css";
-@import "../../../styles/imports/custom-medias.css";
+@import "../../../styles/imports/containers.css";
 
 :root {
   --transition-duration-double: calc(var(--transition-default-duration) * 2);
@@ -101,7 +101,7 @@
   }
 }
 
-@media (--layout-gte-medium) {
+@container style(--layout-gte-medium: true) {
   .container {
     display: none;
   }

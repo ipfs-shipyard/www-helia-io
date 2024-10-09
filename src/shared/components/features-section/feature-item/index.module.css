@@ -1,5 +1,5 @@
 @import "../../../styles/imports/variables.css";
-@import "../../../styles/imports/custom-medias.css";
+@import "../../../styles/imports/containers.css";
 
 .featureItem {
   width: calc(25% - 25px);

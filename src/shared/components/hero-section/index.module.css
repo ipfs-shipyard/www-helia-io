@@ -1,5 +1,5 @@
 @import "../../styles/imports/variables.css";
-@import "../../styles/imports/custom-medias.css";
+@import "../../styles/imports/containers.css";
 
 :root {
   --info-transition-duration: 1500ms;
@@ -170,13 +170,13 @@
   }
 }
 
-@media (--layout-lte-large) {
+@container style(--layout-lte-large: true) {
   .container .content .cubeWrapper {
     width: 26%;
   }
 }
 
-@media (--layout-lte-medium) {
+@container style(--layout-lte-medium: true) {
   .container {
     & .orbitContainer {
       width: 125%;
@@ -188,7 +188,7 @@
   }
 }
 
-@media (--layout-lte-small) {
+@container style(--layout-lte-small: true) {
   .container {
     & .orbitContainer,
     & .animationToggle {
@@ -229,7 +229,7 @@
   }
 }
 
-@media (--layout-gte-xxlarge) {
+@container style(--layout-gte-xxlarge: true) {
   .container {
     & .orbitContainer {
       width: 75%;

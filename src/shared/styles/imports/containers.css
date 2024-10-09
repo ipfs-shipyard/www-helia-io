@@ -1,0 +1,91 @@
+/* ==========================================================================
+   Container queries
+   ========================================================================== */
+/* Use it like so: @container style(--layout-small: true) { ... } */
+
+:root {
+  /* Use these if you developing desktop first and want to target lower resolutions */
+  --layout-lte-xsmall: false;
+  --layout-lte-small: false;
+  --layout-lte-medium: false;
+  --layout-lte-large: false;
+  --layout-lte-xlarge: false;
+
+  /* Use these if you are developing mobile first and want to target higher resolutions */
+  --layout-gte-xsmall: false;
+  --layout-gte-small: false;
+  --layout-gte-medium: false;
+  --layout-gte-large: false;
+  --layout-gte-xlarge: false;
+
+  /* Use these to target a specific range */
+  --layout-xsmall: false;
+  --layout-small: false;
+  --layout-medium: false;
+  --layout-large: false;
+  --layout-xlarge: false;
+
+  @media (width <= 480px) {
+    --layout-lte-xsmall: true;
+  }
+
+  @media (width <= 768px) {
+    --layout-lte-small: true;
+  }
+
+  @media (width <= 1024px) {
+    --layout-lte-medium: true;
+  }
+
+  @media (width <= 1440px) {
+    --layout-lte-large: true;
+  }
+
+  @media (width <= 1920px) {
+    --layout-lte-xlarge: true;
+  }
+
+  @media (width > 480px) {
+    --layout-gte-xsmall: true;
+  }
+
+  @media (width > 768px) {
+    --layout-gte-small: true;
+  }
+
+  @media (width > 1024px) {
+    --layout-gte-medium: true;
+  }
+
+  @media (width > 1440px) {
+    --layout-gte-large: true;
+  }
+
+  @media (width > 1920px) {
+    --layout-gte-xlarge: true;
+  }
+
+  @media (width <= 480px) {
+    --layout-xsmall: true;
+  }
+
+  @media (width > 480px) and (width <= 768px) {
+    --layout-small: true;
+  }
+
+  @media (width > 768px) and (m-width <= 71024px8px) {
+    --layout-medium: true;
+  }
+
+  @media (width > 1024px) and (width <= 1440px) {
+    --layout-large: true;
+  }
+
+  @media (width > 1440px) and (width <= 1920px) {
+    --layout-xlarge: true;
+  }
+
+  @media (width > 1920px) {
+    --layout-xxlarge: true;
+  }
+}

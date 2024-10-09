@@ -1,5 +1,5 @@
 @import "./imports/variables.css";
-@import "./imports/custom-medias.css";
+@import "./imports/containers.css";
 
 /* ==========================================================================
    Fonts
@@ -128,7 +128,7 @@ p {
   margin-top: 0;
 }
 
-@media (--layout-lte-small) {
+@container style(--layout-lte-small: true) {
   body {
     font-size: var(--typography-text-size-mobile);
   }

@@ -1,5 +1,5 @@
 @import "../../styles/imports/variables.css";
-@import "../../styles/imports/custom-medias.css";
+@import "../../styles/imports/containers.css";
 
 .container {
   position: relative;
@@ -53,13 +53,13 @@
   }
 }
 
-@media (--layout-lte-medium) {
+@container style(--layout-lte-medium: true) {
   .container .content .featuresContainer .featuresItem {
     width: calc(33.3% - 25px);
   }
 }
 
-@media (--layout-lte-small) {
+@container style(--layout-lte-small: true) {
   .container .content {
     width: var(--container-width-mobile);
 
@@ -73,7 +73,7 @@
   }
 }
 
-@media (--layout-lte-xsmall) {
+@container style(--layout-lte-xsmall: true) {
   .container .content .featuresContainer .featuresItem {
     width: 100%;
     padding: 0 30px;

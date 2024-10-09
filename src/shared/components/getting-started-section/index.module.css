@@ -1,5 +1,5 @@
 @import "../../styles/imports/variables.css";
-@import "../../styles/imports/custom-medias.css";
+@import "../../styles/imports/containers.css";
 
 .container {
   position: relative;
@@ -163,7 +163,7 @@
   text-decoration: none;
 }
 
-@media (--layout-lte-medium) {
+@container style(--layout-lte-medium: true) {
   .liveSnippet {
     width: 100%;
   }
@@ -173,7 +173,7 @@
   }
 }
 
-@media (--layout-lte-small) {
+@container style(--layout-lte-small: true) {
   .container {
     & .backgroundSvg {
       display: none;

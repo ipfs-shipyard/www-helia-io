@@ -1,5 +1,5 @@
 @import "../../styles/imports/variables.css";
-@import "../../styles/imports/custom-medias.css";
+@import "../../styles/imports/containers.css";
 
 :root {
   --codesandbox-editor-background-color: #1c2022;
@@ -126,7 +126,7 @@
   }
 }
 
-@media (--layout-lte-small) {
+@container style(--layout-lte-small: true) {
   .container .content {
     & h1,
     & .sectionDescription,

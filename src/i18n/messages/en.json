@@ -25,7 +25,7 @@
     },
     "textDescription": {
       "long": "Helia is an implementation of the IPFS protocol that runs everywhere. Written entirely in TypeScript, it runs in a Browser, a Service Worker, a Web Extension, Node.js, Electron and React Native, opening the door to a world of possibilities.",
-      "short": "Helia runs in a Browser, a Service Worker, a Web Extension and Node.js, opening the door to a world of possibilities."
+      "short": "Helia runs in a Browser, a Service Worker, a Web Extension, Node.js, Electron and React Native, opening the door to a world of possibilities."
     },
     "currentVersion": {
       "long": "Current version: {version}",

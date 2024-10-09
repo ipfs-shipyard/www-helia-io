@@ -1,5 +1,5 @@
 @import "../../../styles/imports/variables.css";
-@import "../../../styles/imports/custom-medias.css";
+@import "../../../styles/imports/containers.css";
 
 :root {
   --typography-menu-text-size: calc(var(--typography-text-size) + 1px);
@@ -63,7 +63,7 @@
 }
 
 /* Do not display container when screen is less or equal to 768px */
-@media (--layout-lte-small) {
+@container style(--layout-lte-small: true) {
   .container {
     display: none;
   }
