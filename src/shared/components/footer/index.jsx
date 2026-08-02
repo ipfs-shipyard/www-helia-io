@@ -11,7 +11,7 @@ const Footer = ({ className, intl: { messages } }) => (
       <div className={ styles.leftContent }>&copy; { messages.footer.leftContent }</div>
       <div className={ styles.rightContent }>
         <div className={ styles.text }>
-          <a href="https://ipshipyard.gitwallet.co/">
+          <a href="https://ipshipyard.com/">
             { messages.footer.rightContent }
           </a>
         </div>
