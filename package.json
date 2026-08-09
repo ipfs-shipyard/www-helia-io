@@ -32,8 +32,8 @@
     "react-youtube": "^10.1.0"
   },
   "devDependencies": {
-    "aegir": "^44.1.2",
-    "esbuild": "^0.24.0",
+    "aegir": "^47.0.21",
+    "esbuild": "^0.25.9",
     "rimraf": "^6.0.1"
   },
   "browserslist": [
