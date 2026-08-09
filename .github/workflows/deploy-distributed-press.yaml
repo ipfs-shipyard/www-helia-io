@@ -1,0 +1,47 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Check out the repository
+      - uses: actions/checkout@v3
+
+      # Step 2: Set up Node.js
+      - name: Set up Node.js 18
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      # Step 3: Install dependencies and build the site
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build the site
+        run: npm run build
+
+      # Step 4: Deploy to Distributed Press
+      - name: Publish to Distributed Press
+        uses: hyphacoop/actions-distributed-press@v1.1.0
+        with:
+          publish_dir: public
+          dp_url: https://api.distributed.press
+          refresh_token: ${{ secrets.DISTRIBUTED_PRESS_TOKEN }}
+          site_url: helia.io
+          deploy_http: false
+          deploy_hyper: true
+          deploy_ipfs: true
+
+      # Step 6: Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: public
+          publish_branch: main
