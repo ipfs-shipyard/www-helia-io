@@ -98,6 +98,13 @@
   padding: 1em;
   background: white;
   text-align: left;
+
+  /* the panel clips its overflow, so wrap long output (messages, CIDs) instead
+     of letting it run off the right hand edge */
+  & pre {
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+  }
 }
 
 .liveSnippetOutput {
