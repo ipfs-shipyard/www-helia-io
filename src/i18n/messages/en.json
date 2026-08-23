@@ -88,6 +88,8 @@
     "addDataToIPFS": "Adding data to Helia",
     "output": "Output",
     "getDataFromIPFS": "Getting data from Helia",
+    "runAddExampleFirst": "Run the \"Adding data to Helia\" example above first: it prints the CID that this example needs. Alternatively, replace {placeholder} in the code above with a CID of your own.",
+    "invalidCid": "\"{cid}\" is not a valid CID. Run the \"Adding data to Helia\" example above to get one, or replace it with a CID of your own.",
     "usingJavascript": "Using Javascript in web Browsers or Node.js",
     "usingCli": "Using the CLI",
     "usingGateway": "Using the HTTP Gateway"

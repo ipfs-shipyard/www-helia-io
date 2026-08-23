@@ -22,11 +22,24 @@ import { CID } from 'multiformats/cid'
 import { strings } from '@helia/strings'
 
 const ADD_CODE_DATA = 'Hello, <YOUR NAME HERE>'
+// stands in for the CID until the "add" example has been run and produced a real one
+const GET_CODE_CID_PLACEHOLDER = '<YOUR CID HERE>'
+// the CID literal in the "get" snippet, so we can check it before running the code
+const GET_CODE_CID_PATTERN = /CID\.parse\(\s*'([^']*)'\s*\)/
+
+function isValidCid (str) {
+  try {
+    CID.parse(str)
+    return true
+  } catch (err) {
+    return false
+  }
+}
 
 class GettingStarted extends Component {
   state = {
     codeAdd: codeAdd(ADD_CODE_DATA).trim(),
-    codeGet: codeGet('<YOUR CID HERE>').trim(),
+    codeGet: codeGet(GET_CODE_CID_PLACEHOLDER).trim(),
     outputAdd: '',
     outputGet: '',
     cid: ''
@@ -38,12 +51,6 @@ class GettingStarted extends Component {
     } catch (err) {
       console.log(err)
       return toast.error('Error getting IPFS')
-    }
-
-    const node = await this.IPFS.create()
-    // Add the data to IPFS so that it can be fetched instantly
-    for await (const { cid } of node.add(ADD_CODE_DATA)) {
-      this.setState({ cid: cid.toString(), codeGet: codeGet(cid) })
     }
   }
 
@@ -133,7 +140,45 @@ jsipfs cat ${cid}` } language='bash' />
     }
   }
 
+  // The "get" example can only run against a real CID from the "add" example.
+  // Both ways of getting that wrong surface as the same opaque multibase
+  // decoding error, so check the CID first and say what to do about it instead.
+  // Returns null when there is nothing to report, including when the snippet has
+  // been edited far enough that we can no longer find the CID in it.
+  getCidProblem = (code) => {
+    const { intl: { messages } } = this.props
+    const match = code.match(GET_CODE_CID_PATTERN)
+
+    if (match == null) {
+      return null
+    }
+
+    const cid = match[1]
+
+    if (cid === GET_CODE_CID_PLACEHOLDER) {
+      return messages.gettingStarted.runAddExampleFirst.replace('{placeholder}', GET_CODE_CID_PLACEHOLDER)
+    }
+
+    if (!isValidCid(cid)) {
+      return messages.gettingStarted.invalidCid.replace('{cid}', cid)
+    }
+
+    return null
+  }
+
   handleRunClick = (editor) => async () => {
+    const code = editor === 'add' ? this.state.codeAdd : this.state.codeGet
+    const outputKey = editor === 'add' ? 'outputAdd' : 'outputGet'
+
+    if (editor === 'get') {
+      const problem = this.getCidProblem(code)
+
+      if (problem != null) {
+        this.setState({ [outputKey]: problem })
+        return
+      }
+    }
+
     const handleLog = this.handleChange(editor)
     // variables available to the demo code
     const scope = {
@@ -142,8 +187,6 @@ jsipfs cat ${cid}` } language='bash' />
       CID,
       strings
     }
-    const code = editor === 'add' ? this.state.codeAdd : this.state.codeGet
-    const outputKey = editor === 'add' ? 'outputAdd' : 'outputGet'
 
     try {
       // can't use imports in dynamic code so strip them
